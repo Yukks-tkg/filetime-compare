@@ -26,4 +26,6 @@ jobs:
           appName: filetime-compare
           accountToken: ${{ secrets.SHINYAPPS_TOKEN }}
           accountSecret: ${{ secrets.SHINYAPPS_SECRET }}
-          entryPoint: .github/deploy_force_update.R
+          entryPoint: Rscript
+          args: .github/deploy_force_update.R
+          logLevel: normal
