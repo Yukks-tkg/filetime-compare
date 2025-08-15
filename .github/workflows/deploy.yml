@@ -28,4 +28,5 @@ jobs:
           accountSecret: ${{ secrets.SHINYAPPS_SECRET }}
           entryPoint: Rscript
           args: .github/deploy_force_update.R
+          appDir: "."
           logLevel: normal
