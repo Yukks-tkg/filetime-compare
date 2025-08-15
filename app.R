@@ -260,11 +260,11 @@ make_txt_report <- function(df, dir_A, dir_B) {
 
 # ---- UI ----
 ui <- fluidPage(
-  titlePanel("Rファイルタイムスタンプ比較ツール（ベース名一致・簡易・正規表現）"),
+  titlePanel("ファイルタイムスタンプ比較ツール（ベース名一致・簡易・正規表現）"),
   sidebarLayout(
     sidebarPanel(
-      textInput("dirA", "Aディレクトリ", value = "C:/proj/A", placeholder = "例: C:/proj/A"),
-      textInput("dirB", "Bディレクトリ", value = "C:/proj/B", placeholder = "例: C:/proj/B"),
+      textInput("dirA", "Aディレクトリ", value = "sample/A", placeholder = "例: sample/A"),
+      textInput("dirB", "Bディレクトリ", value = "sample/B", placeholder = "例: sample/B"),
       
       # 拡張子フィルタ
       textInput("extA", "A側で対象とする拡張子（空=すべて）", placeholder = "例: r; csv 或いは .r .csv"),

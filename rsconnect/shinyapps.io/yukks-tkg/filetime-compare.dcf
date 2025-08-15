@@ -1,0 +1,12 @@
+name: filetime-compare
+title: filetime-compare
+username: yukks-tkg
+account: yukks-tkg
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15209417
+bundleId: 10775395
+url: https://yukks-tkg.shinyapps.io/filetime-compare/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
